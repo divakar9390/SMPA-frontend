@@ -40,7 +40,7 @@ function Contact() {
         e.preventDefault(); 
         console.log("Form Submitted", state);
         try{
-        const response =  await  fetch(`http://localhost:8080/api/form/contactForm`,{
+        const response =  await  fetch(`https://smpa-backend-2.onrender.com/api/form/contactForm`,{
             method:"POST",
             headers:{
                 "Content-Type":"application/json",
